@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import {
+  Link
+} from 'react-router-dom';
 
 class Navbar extends Component {
   render() {
@@ -6,10 +9,10 @@ class Navbar extends Component {
       <div className="container">
         <nav className="navbar">
           <div className="navbar-brand">
-            <a className="navbar-item" href="index.html">
+            <Link className="navbar-item" to="/">
               <span className="logo">Bring</span>
               <span className="up">Up</span>
-            </a>
+            </Link>
 
             <div className="navbar-burger burger" data-target="menu-mobile">
               <span></span>
@@ -20,26 +23,26 @@ class Navbar extends Component {
 
           <div id="menu-mobile" className="navbar-menu">
             <div className="navbar-start">
-              <a className="navbar-item" href="index.html">
+              <Link className="navbar-item" to="/">
                 Home
-              </a>
-              <a className="navbar-item" href="product.html">
+              </Link>
+              <Link className="navbar-item" to="/product">
                 Product
-              </a>
-              <a className="navbar-item" href="about.html">
+              </Link>
+              <Link className="navbar-item" to="/about">
                 About
-              </a>
-              <a className="navbar-item " href="career.html">
+              </Link>
+              <Link className="navbar-item" to="/career">
                 Career
-              </a>
+              </Link>
             </div>
             <div className="navbar-end">
-              <a className="navbar-item " href="login.html">
+              <Link className="navbar-item" to="/login">
                 Login
-              </a>
-              <a className="navbar-item" href="register.html">
+              </Link>
+              <Link className="navbar-item" to="/register">
                 Sign Up
-              </a>
+              </Link>
             </div>
           </div>
         </nav>
