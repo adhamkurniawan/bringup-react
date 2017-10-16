@@ -9,7 +9,7 @@ class Navbar extends Component {
       <div className="container">
         <nav className="navbar">
           <div className="navbar-brand">
-            <Link className="navbar-item" to="/">
+            <Link className="navbar-item" to={process.env.PUBLIC_URL + "/"}>
               <span className="logo">Bring</span>
               <span className="up">Up</span>
             </Link>
@@ -23,24 +23,24 @@ class Navbar extends Component {
 
           <div id="menu-mobile" className="navbar-menu">
             <div className="navbar-start">
-              <Link className="navbar-item" to="/">
+              <Link className="navbar-item" to={process.env.PUBLIC_URL + "/"}>
                 Home
               </Link>
-              <Link className="navbar-item" to="/product">
+              <Link className="navbar-item" to={process.env.PUBLIC_URL + "/product"}>
                 Product
               </Link>
-              <Link className="navbar-item" to="/about">
+              <Link className="navbar-item" to={process.env.PUBLIC_URL + "/about"}>
                 About
               </Link>
-              <Link className="navbar-item" to="/career">
+              <Link className="navbar-item" to={process.env.PUBLIC_URL + "/career"}>
                 Career
               </Link>
             </div>
             <div className="navbar-end">
-              <Link className="navbar-item" to="/login">
+              <Link className="navbar-item" to={process.env.PUBLIC_URL + "/login"}>
                 Login
               </Link>
-              <Link className="navbar-item" to="/register">
+              <Link className="navbar-item" to={process.env.PUBLIC_URL + "/register"}>
                 Sign Up
               </Link>
             </div>

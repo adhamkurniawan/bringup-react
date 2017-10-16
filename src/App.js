@@ -15,13 +15,13 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Route exact path="/" component={Home} />
-          <Route path="/product" component={Product} />
-          <Route path="/about" component={About} />
-          <Route path="/career" component={Career} />
+          <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+          <Route path={process.env.PUBLIC_URL + "/product"} component={Product} />
+          <Route path={process.env.PUBLIC_URL + "/about"} component={About} />
+          <Route path={process.env.PUBLIC_URL + "/career"} component={Career} />
 
-          <Route path="/login" component={Login} />
-          <Route path="/register" component={Register} />
+          <Route path={process.env.PUBLIC_URL + "/login"} component={Login} />
+          <Route path={process.env.PUBLIC_URL + "/register"} component={Register} />
         </div>
       </Router>
     );
