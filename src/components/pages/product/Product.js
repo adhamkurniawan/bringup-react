@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
+import Banner from './Banner';
+import ListProduct from './ListProduct';
+import SubscribeForm from './SubscribeForm';
 
 class Product extends Component {
   render() {
     return (
-      <div>
-        <h1>This is Product</h1>
+      <div className="Product">
+        <Banner />
+        <ListProduct />
+        <SubscribeForm />
       </div>
     )
   }
