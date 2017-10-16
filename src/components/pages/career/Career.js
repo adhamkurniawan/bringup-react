@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import Banner from './Banner';
+import Content from './Content';
 
 class Career extends Component {
   render() {
     return (
-      <div>
-        <h1>This is Career</h1>
+      <div className="Career">
+        <Banner />
+        <Content />
       </div>
     )
   }
