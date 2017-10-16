@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import be from './images/be.png';
+import fe from './images/fe.png';
+import sa from './images/sa.png';
 
 class Content extends Component {
   render() {
@@ -18,7 +21,7 @@ class Content extends Component {
                   <article className="media">
                     <div className="media-left">
                       <figure className="image is-64x64">
-                        <img src="images/position/fe.png" alt="Front End Developer" />
+                        <img src={fe} alt="Front End Developer" />
                       </figure>
                     </div>
                     <div className="media-content">
@@ -44,7 +47,7 @@ class Content extends Component {
                   <article className="media">
                     <div className="media-left">
                       <figure className="image is-64x64">
-                        <img src="images/position/be.png" alt="Back End Developer" />
+                        <img src={be} alt="Back End Developer" />
                       </figure>
                     </div>
                     <div className="media-content">
@@ -70,7 +73,7 @@ class Content extends Component {
                   <article className="media">
                     <div className="media-left">
                       <figure className="image is-64x64">
-                        <img src="images/position/sa.png" alt="System Analyst" />
+                        <img src={sa} alt="System Analyst" />
                       </figure>
                     </div>
                     <div className="media-content">

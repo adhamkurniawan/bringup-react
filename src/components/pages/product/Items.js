@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import p1 from './images/product.jpg';
+import p2 from './images/product_2.jpg';
+import p3 from './images/product_3.jpg';
 
 class Items extends Component {
   render() {
@@ -6,7 +9,7 @@ class Items extends Component {
       <div className="Items">
         <div className="columns">
           <div className="column">
-            <img src="images/product.jpg" alt="Product 1" className="image rounded" />
+            <img src={p1} alt="Product 1" className="image rounded" />
           </div>
           <div className="column">
             <h1 className="title is-2 has-text-grey">
@@ -40,13 +43,13 @@ class Items extends Component {
             </ul>
           </div>
           <div className="column">
-            <img src="images/product_2.jpg" alt="Product 2" className="image rounded" />
+            <img src={p2} alt="Product 2" className="image rounded" />
           </div>
         </div>
         <br />
         <div className="columns">
           <div className="column">
-            <img src="images/product_3.jpg" alt="Product 3" className="image rounded" />
+            <img src={p3} alt="Product 3" className="image rounded" />
           </div>
           <div className="column">
             <h1 className="title is-2 has-text-grey">
