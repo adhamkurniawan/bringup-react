@@ -40,10 +40,10 @@ class Login extends Component {
                         </label>
                       </div>
                       <div className="field">
-                        <a className="button is-info is-fullwidth" href="/">Login</a>
+                        <a className="button is-info is-fullwidth" href={process.env.PUBLIC_URL + "/"}>Login</a>
                       </div>
                       <div className="field">
-                        <a className="button is-primary is-fullwidth" href="/">Back</a>
+                        <a className="button is-primary is-fullwidth" href={process.env.PUBLIC_URL + "/"}>Back</a>
                       </div>
                       <div className="field">
                         <p className="has-text-centered">
@@ -52,14 +52,14 @@ class Login extends Component {
                       </div>
                       <div className="field">
                         <a className="button is-default is-fullwidth">
-                          <span className="icon" style={GithubIcon} href="/">
+                          <span className="icon" style={GithubIcon} href={process.env.PUBLIC_URL + "/"}>
                             <i className="fa fa-github"></i>
                           </span>
                           <span>Login with Github</span>
                         </a>
                       </div>
                       <div className="field">
-                        <a className="button is-default is-fullwidth" href="/">
+                        <a className="button is-default is-fullwidth" href={process.env.PUBLIC_URL + "/"}>
                           <span className="icon" style={GoogleIcon}>
                             <i className="fa fa-google"></i>
                           </span>
@@ -68,7 +68,7 @@ class Login extends Component {
                       </div>
                     </div>
                     <p className="has-text-centered">
-                      <small>Don't have an account? <a href="/">Register</a></small>
+                      <small>Don't have an account? <a href={process.env.PUBLIC_URL + "/register"}>Register</a></small>
                     </p>
                   </div>
                 </article>
