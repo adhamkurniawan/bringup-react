@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Navbar from '../../shared/Navbar';
+import Footer from '../../shared/Footer';
 import Banner from './Banner';
 import Service from './Service';
 import Product from './Product';
@@ -8,10 +10,12 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <Banner />
-        <Service />
-        <Product />
-        <ContactForm />
+        <Navbar />
+          <Banner />
+          <Service />
+          <Product />
+          <ContactForm />
+        <Footer />
       </div>
     )
   }

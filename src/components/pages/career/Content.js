@@ -28,7 +28,7 @@ class Content extends Component {
                           <br />
                           <small>3 Days Ago</small>
                           <br />
-                          Chicharrones air plant next level ipsum truffaut meh. Ea roof party chia hashtag, try-hard squid synth tote bag.
+                          Chicharrones air plant next level ipsum truffaut meh. Ea roof party chia hashtag, try-hard squid synth tote bag.&nbsp;
                           <a href="fe.html">Read More</a>
                         </p>
                       </div>
@@ -54,7 +54,7 @@ class Content extends Component {
                           <br />
                           <small>6 Days Ago</small>
                           <br />
-                          Chicharrones air plant next level ipsum truffaut meh. Ea roof party chia hashtag, try-hard squid synth tote bag.
+                          Chicharrones air plant next level ipsum truffaut meh. Ea roof party chia hashtag, try-hard squid synth tote bag.&nbsp;
                           <a href="be.html">Read More</a>
                         </p>
                       </div>
@@ -80,7 +80,7 @@ class Content extends Component {
                           <br />
                           <small>15 Days Ago</small>
                           <br />
-                          Chicharrones air plant next level ipsum truffaut meh. Ea roof party chia hashtag, try-hard squid synth tote bag.
+                          Chicharrones air plant next level ipsum truffaut meh. Ea roof party chia hashtag, try-hard squid synth tote bag.&nbsp;
                           <a href="sa.html">Read More</a>
                         </p>
                       </div>
