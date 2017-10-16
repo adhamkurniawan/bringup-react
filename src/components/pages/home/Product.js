@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import p1 from './images/product.jpg';
 
 class Product extends Component {
   render() {
@@ -10,7 +11,7 @@ class Product extends Component {
             <div className="columns">
               <div className="column">
                 <figure className="image is-4by3">
-                  <img src="images/product.jpg" alt="Product" className="rounded" />
+                  <img src={p1} alt="Product" className="rounded" />
                 </figure>
               </div>
               <div className="column">
